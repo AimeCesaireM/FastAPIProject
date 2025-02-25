@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9484833d-7f00-40e5-893a-f9e18d12c7f3" name="Changes" comment="First commit and push">
-      <change beforePath="$PROJECT_DIR$/.idea/FastAPIProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPIProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9484833d-7f00-40e5-893a-f9e18d12c7f3" name="Changes" comment="db creds" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740437035685</updated>
       <workItem from="1740437036791" duration="4965000" />
-      <workItem from="1740461054570" duration="1241000" />
+      <workItem from="1740461054570" duration="1910000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and push">
       <option name="closed" value="true" />
@@ -128,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740461784426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="db creds">
+      <option name="closed" value="true" />
+      <created>1740462972118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740462972118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit and push" />
+    <MESSAGE value="db creds" />
+    <option name="LAST_COMMIT_MESSAGE" value="db creds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPIProject$FastAPIProject.coverage" NAME="FastAPIProject Coverage Results" MODIFIED="1740438369688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
