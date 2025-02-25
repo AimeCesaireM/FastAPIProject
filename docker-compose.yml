@@ -13,8 +13,8 @@ services:
   db:
     image: postgres:13
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: aimecesaire
+      POSTGRES_PASSWORD: offer-database-password
       POSTGRES_DB: trades
     volumes:
       - postgres_data:/var/lib/postgresql/data
