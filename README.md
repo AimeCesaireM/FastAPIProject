@@ -22,7 +22,7 @@ This project is a simple REST API built with FastAPI for managing trade orders. 
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fastapi-orders-app.git
+git clone https://github.com/aimecesairem/fastapi-orders-app.git
 cd fastapi-orders-app
 ```
 
