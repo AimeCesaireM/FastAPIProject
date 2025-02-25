@@ -20,7 +20,7 @@ This project is a simple REST API built with FastAPI for managing trade orders. 
 ```bash
 git clone https://github.com/AimeCesaireM/FastAPIProject.git
 cd FastAPIProject
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Step 2: Modify your ```docker-compose.yml``` file.
