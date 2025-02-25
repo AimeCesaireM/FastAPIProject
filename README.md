@@ -1,7 +1,3 @@
-Sure! Here's a professional README for your project:
-
----
-
 # FastAPI Orders Application
 
 ## Overview
@@ -24,12 +20,18 @@ This project is a simple REST API built with FastAPI for managing trade orders. 
 ```bash
 git clone https://github.com/AimeCesaireM/FastAPIProject.git
 cd FastAPIProject
+pip install requirements.txt
 ```
 
-### Step 2: Create a `.env` File
-Create a `.env` file in the root directory with the following content:
+### Step 2: Modify your ```docker-compose.yml``` file.
+Modify the lines:
 ```
 DATABASE_URL=postgresql://user:password@db:5432/trades
+```
+and
+```
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password 
 ```
 The ``` user``` and ```password``` will be the user and passwords to your database.
 
