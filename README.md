@@ -103,7 +103,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
 ## Database
-The application uses PostgreSQL for persistent storage. The database configuration is specified in the `.env` file.
+The application uses PostgreSQL for persistent storage. The database configuration is specified in the `docker-compose.yml` file.
 
 ### Creating a New Database User and Database
 1. **Access the PostgreSQL prompt**:
@@ -118,15 +118,11 @@ The application uses PostgreSQL for persistent storage. The database configurati
     CREATE DATABASE yourdatabase;
     GRANT ALL PRIVILEGES ON DATABASE yourdatabase TO yourusername;
     ```
-The ``` yourusername``` and ```yourpassword``` should match the ones defined in the .env file
+The ``` yourusername``` and ```yourpassword``` should match the ones defined in the ```docker-compose.yml``` file
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## Contact
-For any questions or support, please contact yourname@company.com.
-
 ---
